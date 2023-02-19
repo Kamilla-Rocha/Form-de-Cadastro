@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cadastro da liga dos astrounautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form action="">
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <label for="passaword">Senha</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Data de Nascimento</label>
+        <input type="date" name="birthday" id="birthday" />
+
+        <label for="photo">Foto:</label>
+        <input type="file" name="photo" id="photo" /> -
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+          <option value="brasilian">Brasileira</option>
+          <option value="america">Americana</option>
+          <option value="mexico">Mexicana</option></select
+        >- Genero:
+        <label for="female">F</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label fo="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+      </div>
+
+      <div>
+        <h3>Suas principais qualidades:</h3>
+        <label for="extrovertido">Extrovertido</label>
+        <input type="checkbox" name="extrovertido" id="extrovertido" /> |
+        <label for="introvertido">Introvertido</label>
+        <input type="checkbox" name="introvertido" id="introvertido" /> |
+        <label for="proativo">Proativo</label>
+        <input type="checkbox" name="proativo" id="proativo" /> |
+      </div>
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Porque você gostaria de ser um astronauta ?"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <br />
+        <input type="submit" value="Criar" />
+      </div>
+    </form>
+  </body>
+</html>
